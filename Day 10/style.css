@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/* Forst Selector { perporty: value; } */
+
+/* 
+.box {
+    width: 800px;
+    height: 500px;
+    background: salmon;
+    padding: 10px;
+    margin: 10px;
+ }
+
+ .one {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin-bottom: 10px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 9999999;
+ 
+ }
+ .one h1 {
+   
+ }
+ .two {
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+    font-size: 12px;
+    position: relative;margin-left: 30PX;
+
+ }
+ .two h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ } */
+
+
+ .position {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .fixed {
+    width: 50%;
+    height: 100px;
+    background: greenyellow;
+    /* position: fixed;
+    top: 0;
+    bottom: 100%; */
+ }
+/*  
+ .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+  } */
+ #page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+ }
+ #page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: sandybrown;
+ }
+ #page3 {
+    width: 100%;
+    height: 100vh;
+    background-color: goldenrod;
+ }
