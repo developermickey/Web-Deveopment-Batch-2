@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+   
+}
+.header-section {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.header-section .logo {
+    font-size: 2rem;
+}
+.header-section .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.1rem;
+}
+.header-section .menu a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Page 1 */
+#page1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+#page1 .left, #page1 .right {
+    flex-basis: 50%;
+}
+#page1 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+#page1 .left .subHeading {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+#page1 .left .heading {
+    font-size: 3.8rem;
+}
+#page1 .left .para {
+    font-size: 1.4rem;
+    max-width: 600px;
+}
+#page1 .left .btn {
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+
+}
+#page1 .right {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#page1 .right .img {
+    position: relative;
+    width: 534px;
+    height: 587px;
+}
+
+#page1 .right .img .heroImg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+
+
+}
