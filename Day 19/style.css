@@ -64,3 +64,95 @@ a {
     font-size: 16px;
 
 }
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+}
+#page1 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 50%;
+}
+#page1 .left h1{
+    font-size: 3.625rem;
+    max-width: 460px;
+}
+
+#page1 .left p{
+    font-size: 1rem;
+    max-width: 460px;
+    line-height: 1.625rem;
+}
+
+#page1 .formDiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#page1 .formDiv form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#page1 .formDiv form input {
+    width: 100%;
+    max-width: 475px;
+    height: 4.5rem;
+    padding: 0 1rem;
+    border-radius: 0.625rem;
+    font-size: 1rem;
+}
+#page1 .formDiv form .btn-submit {
+position: absolute;
+top: 10%;
+left: 46%;
+background: black;
+color: #fff;
+padding: 1.2rem 2rem;
+border: none;
+border-radius: 10px;
+font-size: 1rem;
+}
+.bottomDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.bottomDiv .leftB, .bottomDiv .rightB {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.bottomDiv .leftB h3, .bottomDiv .rightB h3 {
+    font-size: 2.625rem;
+}
+
+.bottomDiv .leftB p, .bottomDiv .rightB p {
+    width: 40px;
+}
+
+
+
+
+
+
+#page1 .right {
+    width: 50%;
+    height: 100%;
+    padding: 3rem;
+}
+#page1 .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
