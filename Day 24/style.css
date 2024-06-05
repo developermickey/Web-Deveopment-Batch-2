@@ -178,8 +178,8 @@ header .right .btn {
 }
 
 #page3 .card {
-    width: 30%;
-    height: 450px;
+    width: 25%;
+    height: 560px;
     background: #f8f8f8;
     display: flex;
     flex-direction: column;
@@ -207,11 +207,27 @@ header .right .btn {
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid #e6e6e6;
+    position: relative;
+    padding-top: 1.5rem;
 }
-
+#page3 .card .bottoms .lefts, #page3 .card .bottoms .rights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
 #page3 .card .bottoms .lefts h3, #page3 .card .bottoms .rights h3{
     font-size: 2.8rem;
     font-weight: 400;
+}
+#page3 .card .bottoms .center {
+    width: 1px;
+    height: 100%;
+    background: #393939;
+    margin-top: 2rem;
+
 }
 #page3 .card .bottoms .lefts h3 sup, #page3 .card .bottoms .rights h3 sup{
     font-size: 1rem;
@@ -222,4 +238,138 @@ header .right .btn {
     font-weight: 300;
     opacity: 0.5;
     text-align: center;
+}
+
+#page4 {
+    width: 100%;
+    height: 100vh;
+    padding: 2.5rem;
+}
+#page4 h6 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+#page4 hr {
+    background: #dadada;
+    border-color: #dadada;
+}
+
+#page4 .driving {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#page4 .driving .leftsss {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: flex-start;
+}
+
+#page4 .driving .leftsss h2 {
+    font-size: 3.5rem;
+}
+#page4 .driving .leftsss p {
+    font-size: 1.4rem;
+    opacity: 0.5;
+}
+#page4 .driving .leftsss .btn-driving {
+    border: 1px solid #000;
+    color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+#page4 .driving .rightsss {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    height: 85vh;
+    justify-content: center;
+}
+#page4 .driving .rightsss img{
+    width: 70%;
+    height: 570px;
+    object-fit: cover;
+
+}
+
+
+
+/* Page 5 */
+
+#page5 {
+    width: 100%;
+    height: 100vh;
+    padding: 2.5rem;
+}
+#page5 h6 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+#page5 hr {
+    background: #dadada;
+    border-color: #dadada;
+}
+
+#page5 .topsss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page5 .topsss h2{
+    font-size: 3.5rem;
+}
+
+#page5 .topsss .btn-topsss{
+    border: 1px solid #000;
+    color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+.cardss {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.work-card {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 2rem;
+    margin: 2rem;
+}
+.work-card img{
+    width: 100%;
+    height: 100%;
+}
+
+#page5 .work-card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page5 .work-card-heading h2{
+    font-size: 1.5rem;
+}
+
+#page5 .work-card-heading .btn-work-card{
+    border: 1px solid #000;
+    color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 50px;
 }
