@@ -125,35 +125,129 @@ html, body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* features section */
 
 #features {
     width: 100%;
-    height: 100vh;
-    background-color: #181a1b;
+    min-height: 100vh;
+    padding: 5rem;
+    text-align: center;
 }
+#features h3 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+#features .feature-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+#features .feature-group .feature-left {
+    display: flex;
+    align-items: center;
+}
+
+#features .feature-group .feature-left p {
+   font-size: 1rem;
+   font-family: "TT Firs Neue Light";
+   max-width: 350px;
+}
+#features .feature-group a {
+    color: var(--primary-color);
+    font-size: 1rem;
+   font-family: "TT Firs Neue Light";
+
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding: 4rem 0;
+    text-align: left;
+}
+
+.card {
+    width: 33.33%;
+    height: 400px;
+}
+.card .imgCol {
+    background-image: url(./img/cardImg1.jpeg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+
+}
+.card .imgCol a {
+    padding: 0.8rem 1.5rem;
+    background: var(--white-color);
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: var(--primary-color);
+    font-family: "TT Firs Neue Light";
+}
+.card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.card p {
+    font-size: 1rem;
+    font-family: "TT Firs Neue Light";
+    max-width: 320px;
+}
+
+#features .features-btn {
+    padding: 1rem 2.5rem;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 50px;
+    font-family: "TT Firs Neue Light";
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #pricing {
     width: 100%;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #8a3c3c;
 }
 #testimonials {
     width: 100%;
