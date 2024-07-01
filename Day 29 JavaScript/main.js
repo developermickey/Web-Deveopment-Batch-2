@@ -1,16 +1,48 @@
-// variables & constants ✅  var, let and const 
 // compilers & interpreters ✅
+// variables & constants ✅  var, let and const 
 // window ✅ 
 // types
 // undefined not defined null
 // Operatars 
 // conditionals
 // loops
-// functions
+
+// Advaced Topic 
+// functions 
+// loops
 // return
-// arrays
+// arrays   
 // objects
+
+
+
+// variables & constants  
+
+
+
+
+var a = 20; // yah ek variable hai  var hai wo ek keyword 
+
+var a = 10; 
+
+
+// constants
+
+const user = "Mayur";
+
+console.log
+
+
+
+
+
+
 // questions
+
+
+
+
+
 
 
 
