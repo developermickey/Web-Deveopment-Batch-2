@@ -2,8 +2,8 @@
 // variables & constants ✅  var, let and const 
 // window ✅ 
 // undefined not defined null ✅ 
-// types ✅ 
-// Operatars - ✅
+// types ✅  // String Number Boolean Null Undefied 
+// Operatars - ✅ 
 // conditionals
 // loops
 
@@ -513,6 +513,9 @@ if(light == "ON"){
 
     console.log("Light OFF Hai");
 }
+
+
+
 
 
 
