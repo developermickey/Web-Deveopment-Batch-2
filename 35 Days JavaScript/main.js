@@ -48,8 +48,43 @@
 // DOM 
 
 
-x = 10; 
+// x = 10; 
 
-console.log(x);
+// console.log(x);
 
-var x;
+// var x;
+
+
+// Conditionals Statements 
+
+
+// if (false ) {
+//  // Statement print karwa do   
+// }else {
+//  // Statement print karwa do   
+// }
+
+let ramName = 1000;
+
+if(ramName == 99) {
+    console.log("Mayur Ne Ram  99 ");
+    
+}else if (ramName == 450){
+    console.log("Mayur Ne Ram 450 ");
+}else if (ramName == 750){
+    console.log("Mayur Ne Ram 750 ");
+}
+else if (ramName >= 1000){
+   if(ramName == 1000) {
+    console.log("Mayur Ne Ram 1100 ");
+   }else {
+    console.log("Mayur Won");
+   }
+}
+else {
+    console.log("Mayur Lose");
+}
+
+// Student Grade A A+ B+ B , C+ C D
+// Student % Fail pass  
+// Movie Ticket 500, top seat 350 pay to bottom 
